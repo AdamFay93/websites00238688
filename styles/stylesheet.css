@@ -11,19 +11,19 @@ body{
 header{
     width: 100%;
     height: 100px;
-    h1{
-        margin: 0px;
-    }
+}
+header h1{
+    margin: 0px;
 }
 main{
     float: left;
     width: 70%;
     height: 680px;
-    form{
-        padding-top: 100px;
-        padding-left: 600px;
-        color: white;
-    }
+}
+main form{
+    padding-top: 100px;
+    padding-left: 600px;
+    color: white;
 }
 li{
     color: white;
@@ -33,19 +33,19 @@ aside{
     width: 29%;
     height: 1000px; /*so the orange border goes all the way down the webpage*/
     border-left: solid orange;
-    h3{
-        float: inline-start;
-        color: white;
-    }
-    ul{
-        list-style-type: circle;
-    }
-    ul img{
-        float: left;
+}
+aside h3{
+    float: inline-start;
+    color: white;
+}
+aside ul{
+    list-style-type: circle;
+}
+aside ul img{
+    float: left;
         width: 100px; 
         height: 100px;
         padding: 0;
-    }
 }
 footer{
     clear:both;
@@ -56,19 +56,19 @@ footer{
     text-align: center;
     border-top: solid orange;
     background-color: black;
-    nav{
-        background: none;
-        float: left;
-        margin-left: 30%;
-        padding-bottom: 0px;
-        padding-top: 0px;
-    }
-    nav a{
-        padding: 10px 16px;
-    }
-    h4{
-        margin: 0;
-    }
+}
+footer nav{
+    background: none;
+    float: left;
+    margin-left: 30%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+footer nav a{
+    padding: 10px 16px;
+}
+footer h4{
+    margin: 0;
 }
 nav{
     width: 100%;
